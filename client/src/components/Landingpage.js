@@ -34,6 +34,7 @@ class landingpage extends Component {
            <a href="/contact" rel="noopener noreferrer" target="_blank">
              <i className="fa fa-address-card" aria-hidden="true" />
            </a>
+           
           </div>
          
          </div>
