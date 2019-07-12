@@ -15,10 +15,10 @@ class landingpage extends Component {
          />
          
          <div className="banner-text">
-           <h1>Computer Engineering Student</h1>
+           <h1>Ross Mojgani</h1>
+           <h1>Computer Engineering Student.</h1>
            <hr />
-           <p>Python | C++ | C | Java | Web Development </p>
-          
+           <p>Python | Java | C++ | C | Web Development </p>
          <div className="social-links">
            {/* github link */}
            <a href="https://github.com/rossmojgani" rel="noopener noreferrer" target="_blank">

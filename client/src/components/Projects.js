@@ -15,10 +15,10 @@ class Projects extends Component {
         <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '20px'}}>
           <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://blog.algolia.com/wp-content/uploads/2015/11/React_illo_final_720x400.png) center / cover'}}>Fitness Web App</CardTitle>
           <CardText>
-            This was a fitness web app created with react.js, node.js and MySQL.
+            A fitness web app to give personalized nutrition and workout plans based on an individual’s goals, height, weight, and body fat percentage. Implemented front end with React.js, and integrated backend with Node.js and MySQL to store user data, diet plans, and workout schedules.
           </CardText>
           <CardActions border>
-            <Button colored>Github</Button>
+            <a href="https://github.com/rossmojgani/FitnessApp" target="_blank"><Button colored>Github</Button></a>
             <Button colored>Code</Button>
             <Button colored>LiveDemo</Button>
           </CardActions>
@@ -29,14 +29,14 @@ class Projects extends Component {
           </CardMenu>
         </Card>
         
-        {/* Fitness App Project */}
+        {/* Personal Portfolio */}
         <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '20px'}}>
-          <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://blog.algolia.com/wp-content/uploads/2015/11/React_illo_final_720x400.png) center / cover'}}>Fitness Web App</CardTitle>
+          <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://coreybradshaw.files.wordpress.com/2019/04/network-transformation-optimizednfv-16x9.jpg.rendition.intel_.web_.480.270.jpg) center / cover'}}>Ross Portfolio</CardTitle>
           <CardText>
-            This was a fitness web app created with react.js, node.js and MySQL.
+            Development portfolio created in React.js to showcase projects, skills, and experience with goal in mind to connect with others sharing the same interests. 
           </CardText>
           <CardActions border>
-            <Button colored>Github</Button>
+            <a href="https://github.com/rossmojgani/ross-portfolio" target="_blant"><Button colored>Github</Button></a>
             <Button colored>Code</Button>
             <Button colored>LiveDemo</Button>
           </CardActions>
@@ -47,23 +47,6 @@ class Projects extends Component {
           </CardMenu>
         </Card>
         
-        {/* Fitness App Project */}
-        <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '20px'}}>
-          <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://blog.algolia.com/wp-content/uploads/2015/11/React_illo_final_720x400.png) center / cover'}}>Fitness Web App</CardTitle>
-          <CardText>
-            This was a fitness web app created with react.js, node.js and MySQL.
-          </CardText>
-          <CardActions border>
-            <Button colored>Github</Button>
-            <Button colored>Code</Button>
-            <Button colored>LiveDemo</Button>
-          </CardActions>
-          <CardMenu style={{color: '#fff'}}>
-            <Button style={{color: 'white'}}>
-              <i className="fa fa-share"></i>
-            </Button>
-          </CardMenu>
-        </Card>
         </div>
       )
     }else if(this.state.activeTab === 1){
@@ -123,9 +106,9 @@ class Projects extends Component {
     return(
       <div className="category-tabs">
         <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
-          <Tab>Fitness App</Tab>
-          <Tab>Boggle Player</Tab>
-          <Tab>Web Portfolio</Tab>
+          <Tab>Web Development</Tab>
+          <Tab>Software Projects</Tab>
+          <Tab>Python Projects</Tab>
           <Tab>UBC Mars Colony</Tab>
         </Tabs>
         
