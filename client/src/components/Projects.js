@@ -56,7 +56,7 @@ class Projects extends Component {
         <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '20px'}}>
           <CardTitle style={{color: '#000', height: '176px', background: 'url(http://anthonybarranco.com/blog/wp-content/uploads/2014/10/oldboggle.jpg) center / cover'}}>CPU Boggle Player</CardTitle>
           <CardText>
-            This was a boggle player controlled by the CPU created in Java.
+            Applied graph theory concepts to find all solutions to any dimension Boggle board using graph traversals such a depth first search and breadth first search.
           </CardText>
           <CardActions border>
             <Button colored>Github</Button>
