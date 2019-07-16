@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 import avatar from './avatar.jpg';
+import Typist from 'react-typist';
 
 class landingpage extends Component {
   render() {
@@ -16,7 +17,7 @@ class landingpage extends Component {
          
          <div className="banner-text">
            <h1>Ross Mojgani</h1>
-           <h1>Computer Engineering Student.</h1>
+           <h1><Typist>Computer Engineering Student.</Typist></h1>
            <hr />
            <p>Python | Java | C++ | C | Web Development </p>
          <div className="social-links">
