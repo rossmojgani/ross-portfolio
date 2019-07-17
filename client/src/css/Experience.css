@@ -1,0 +1,12 @@
+.experience-cards {
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  margin: auto;
+  width: 75%;
+}
+
+.experience-cards hr{
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  visibility: hidden;
+}

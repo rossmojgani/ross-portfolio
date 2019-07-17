@@ -8,8 +8,8 @@ class Experience extends Component {
     return(
       <div className="experience-cards">
       <Card>
-        <Card.Header>Ecoation</Card.Header>
         <Card.Body>
+          <Card.Title>Ecoation Innovative Solutions Inc. (EIS)</Card.Title>
           <Card.Title>Embedded Software Engineer</Card.Title>
           <Card.Text>
             Hello world
@@ -19,9 +19,9 @@ class Experience extends Component {
       </Card>
       <hr/>
       <Card>
-        <Card.Header>Ecoation</Card.Header>
         <Card.Body>
-          <Card.Title>Embedded Software Engineer</Card.Title>
+          <Card.Title>KnowledgeTech Software Consulting</Card.Title>
+          <Card.Title>Solutions Architect</Card.Title>
           <Card.Text>
             Hello world
           </Card.Text>
