@@ -9,7 +9,7 @@ class Experience extends Component {
       <div className="experience-cards">
       <Card>
         <Card.Body>
-          <Card.Title>Ecoation Innovative Solutions Inc. (EIS)</Card.Title>
+          <Card.Title><h1>Ecoation Innovative Solutions Inc. (EIS)</h1></Card.Title>
           <Card.Title>Embedded Software Engineer</Card.Title>
           <Card.Text>
             Hello world
@@ -20,7 +20,7 @@ class Experience extends Component {
       <hr/>
       <Card>
         <Card.Body>
-          <Card.Title>KnowledgeTech Software Consulting</Card.Title>
+          <Card.Title><h1>KnowledgeTech Software Consulting</h1></Card.Title>
           <Card.Title>Solutions Architect</Card.Title>
           <Card.Text>
             Hello world
