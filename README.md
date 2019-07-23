@@ -1,2 +1,3 @@
-# ross-portfolio
-Personal portfolio made to get more experience in react.js, node.js, and networking
+# Ross Portfolio
+
+Developer portfolio created in React.js to showcase projects, skills, and experience with goal in mind to connect with others sharing the same interests.
