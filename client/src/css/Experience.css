@@ -30,7 +30,7 @@
     background-size: cover;
 }
 
-.ecoation-img {
+.experience-cards img {
     width: 26%;
     top: 50%;
     left: 10px;
@@ -68,7 +68,7 @@
 }
 
 @media (max-width: 769px) {
-    .ecoation-img{
+    .experience-cards img{
         display: none;
     }
 
@@ -80,7 +80,7 @@
         margin-left: -50px;
     }
 
-
-
+    .experience-card {
+        width: 90%;
+    }
 }
-

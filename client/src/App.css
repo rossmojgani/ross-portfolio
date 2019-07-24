@@ -37,13 +37,6 @@
     padding: 1em;
   }
 
-  .contact-body {
-    position: fixed;
-  }
-
-  .contact-list i {
-    font-size: 66px;
-  }
 }
 
 @media (max-width: 770px) {
@@ -58,10 +51,6 @@
   .banner-text p {
     font-size: 14px;
   }
-
-  .contact-list i {
-    font-size: 46px;
-  }
 }
 
 .projects-grid {
@@ -73,7 +62,6 @@
  padding-top: 5em;
  border-radius: 40px;
 }
-
 
 .banner-text hr {
   border-top: 5px;
@@ -96,46 +84,6 @@
   color: white;
   font-size: 5em;
   padding: 8px;
-}
-
-/* Contact page css */
-
-.contact-body {
-  margin: auto;
-  width: 100%;
-  height: 100%;
-  justify-content: center;
-  padding-top: 1em;
-  top: 52px;
-}
-
-.contact-grid {
-  text-align: center;
-  justift-content: center;
-  width: 80%;
-  height: 550px;
-  background: white;
-  color: black;
-  margin-bottom: 20px;
-}
-
-.contact-grid h2 {
-  font-family: 'Anton', sans-serif;
-}
-
-.contact-grid p {
-  font-family: 'Oxygen', sans-serif;
-  font-weight: bold;
-}
-
-.contact-grid hr {
-  border-top: 5px dotted black;
-  width: 50%;
-  margin: auto;
-}
-
-.contact-list i {
-  padding-right: 1rem;
 }
 
 .banner-text {

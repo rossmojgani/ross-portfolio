@@ -2,10 +2,8 @@ import React, {Component} from 'react';
 import '../css/Experience.css';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
-import Ecoation from '../images/ecoation.png';
-import Ecoation2 from '../images/ecoaction.png';
-import Coast from '../images/coast_capital.jpg';
-import Coast2 from '../images/coast_capital_crop.jpg';
+import Ecoation from '../images/ecoaction.png';
+import Coast from '../images/coast_capital_crop.jpg';
 import MarsColony from '../images/ubc_mars_colony.png';
 
 class Experience extends Component {
@@ -14,7 +12,7 @@ class Experience extends Component {
       <div className="experience-cards">
         
         <div className="experience-card">
-          <img className="ecoation-img" src={Ecoation2} alt="" />
+          <img className="ecoation-img" src={Ecoation} alt="" />
           <div className="experience-back" >
           <div className="experience-text" >
           <h3>Ecoation Innovative Solutions Inc. (EIS)</h3>
@@ -29,7 +27,7 @@ class Experience extends Component {
         </div>
 
         <div className="experience-card">
-          <img className="ecoation-img" src={Coast2} alt="" />
+          <img className="coast-img" src={Coast} alt="" />
           <div className="experience-back" >
           <div className="experience-text" >
           <h3>Coast Capital Savings Credit Union</h3>
@@ -45,7 +43,7 @@ class Experience extends Component {
         </div>
 
         <div className="experience-card">
-          <img className="ecoation-img" src={MarsColony} alt="" />
+          <img className="mars-img" src={MarsColony} alt="" />
           <div className="experience-back" >
           <div className="experience-text" >
           <h3>UBC Mars Colony</h3>
