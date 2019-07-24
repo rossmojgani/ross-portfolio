@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
-import marsColony from './ubc_mars_colony.png';
+import marsColony from '../images/airlock.png';
 
 class Projects extends Component {
   constructor(props) {
