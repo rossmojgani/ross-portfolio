@@ -24,7 +24,7 @@
     text-align: center;
     align-items: center;
     padding-top: 1em;
-    top: 52px;
+    /*top: 52px;*/
 }
 
 .contact-body ul {
@@ -35,7 +35,6 @@
 .contact-body li {
     margin-top: 30px;
     margin-left: -50px;
-
 }
 
 .contact-grid {

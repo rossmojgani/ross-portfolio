@@ -8,7 +8,7 @@ import 'react-mdl/extra/material.css';
 import 'react-mdl/extra/material.js';
 
 ReactDOM.render(
-    <BrowserRouter>
+      <BrowserRouter>
       <App />
     </BrowserRouter>
     , document.getElementById('root'));

@@ -13,6 +13,8 @@
     "react-mdl": "^1.11.0",
     "react-router-dom": "^4.3.1",
     "react-scripts": "3.0.1",
+    "react-scroll": "^1.7.12",
+    "react-scrollable-anchor": "^0.6.1",
     "react-typist": "^2.0.5",
     "tiny-invariant": "^1.0.4"
   },
