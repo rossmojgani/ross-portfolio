@@ -9,6 +9,8 @@ import Backdrop from './components/Backdrop/Backdrop';
 import About from './components/About';
 import Projects from './components/Projects';
 import Experience from './components/Experience';
+import Landingpage from './components/Landingpage';
+import Contact from './components/Contact';
 
 class App extends Component {
   state = {
@@ -38,9 +40,11 @@ class App extends Component {
          <SideDrawer show={this.state.sideDrawerOpen} />
          {backdrop}
          <main style={{marginTop: '64px'}}/>
-         <ScrollableAnchor id={'about-body'}><About /></ScrollableAnchor>
+         <ScrollableAnchor id={'landing'}><Landingpage /></ScrollableAnchor>
+         <ScrollableAnchor id={'about'}><About /></ScrollableAnchor>
          <ScrollableAnchor id={'projects'}><Projects /></ScrollableAnchor>
          <ScrollableAnchor id={'experience'}><Experience /></ScrollableAnchor>
+         <ScrollableAnchor id={'contact'}><Contact /></ScrollableAnchor>
        </div>
      );
   }

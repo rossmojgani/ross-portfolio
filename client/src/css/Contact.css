@@ -1,7 +1,7 @@
 /*display for larger screens*/
 @media (min-width: 769px) {
     .contact-body {
-        position: fixed;
+        /*position: fixed;*/
     }
 
     .contact-list i {
@@ -18,8 +18,8 @@
 
 .contact-body {
     margin: auto;
-    width: 100%;
-    height: 100%;
+    /*width: 100%;*/
+    /*height: 100%;*/
     justify-content: center;
     text-align: center;
     align-items: center;

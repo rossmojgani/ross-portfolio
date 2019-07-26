@@ -20,29 +20,40 @@ class Toolbar extends Component {
         <ul>
           <li>
             <a
-              key='#about-body'
-              href='#about-body'
+              key='#about'
+              href='#about'
             >
               About me
             </a>
             {/*<a href="/about">About me</a>*/}
           </li>
           <li>
-            <Link
-              activeClass="active"
-              to="projects"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
+            <a
+              key='#projects'
+              href='#projects'
             >
               Projects
-            </Link>
-    {/*<a href="/projects">Projects</a>*/}
+            </a>
+            {/*<a href="/projects">Projects</a>*/}
           </li>
-          <li><a href="/experience">Experience</a></li>
-          <li><a href="/contact">Contact</a></li>
-          <li> <a onClick={() => scroll.scrollTo(100)}>Scroll To 100!</a></li>
+          <li>
+            <a
+              key='#experience'
+              href='#experience'
+            >
+              Experience
+            </a>
+          {/*<a href="/experience">Experience</a>*/}
+          </li>
+          <li>
+            <a
+              key='#contact'
+              href='#contact'
+            >
+              Contact
+            </a>
+            {/*<a href="/contact">Contact</a>*/}
+            </li>
         </ul>
       </div>
     </nav>
