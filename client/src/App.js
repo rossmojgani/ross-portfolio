@@ -2,7 +2,6 @@ import React, { Component} from 'react';
 import ScrollableAnchor from 'react-scrollable-anchor';
 import './App.css';
 import { BrowserRouter as Router, Route} from 'react-router-dom';
-import Main from './components/main';
 import Toolbar from './components/Toolbar/Toolbar';
 import SideDrawer from './components/SideDrawer/SideDrawer';
 import Backdrop from './components/Backdrop/Backdrop';
