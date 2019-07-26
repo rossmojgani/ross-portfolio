@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
 import marsColony from '../images/airlock.png';
+import '../css/Projects.css';
 
 class Projects extends Component {
   constructor(props) {
@@ -125,6 +126,7 @@ class Projects extends Component {
   render() {
     return(
       <div className="category-tabs">
+        <h1>Projects</h1>
         <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
           <Tab>Software Projects</Tab>
           <Tab>Hackathon Projects</Tab>

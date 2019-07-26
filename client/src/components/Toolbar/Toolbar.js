@@ -12,7 +12,7 @@ class Toolbar extends Component {
         <DrawerToggleButton click={this.props.drawerClickHandler} />
       </div>
       <div className="toolbar__logo">
-        <a onClick={() => scroll.scrollToTop()}>Ross Portfolio</a>
+        <a style={{color: 'white'}}onClick={() => scroll.scrollToTop()}>Ross Portfolio</a>
         {/*<a href="/">Ross Portfolio</a>*/}
       </div>
       <div className="spacer" />

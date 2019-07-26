@@ -1,0 +1,26 @@
+.category-tabs {
+  height: 100vh;
+  padding-top: 2.5em;
+}
+
+.category-tabs h1 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.projects-grid {
+  height: 100%;
+}
+
+/* Display for larger screens*/
+@media (min-width: 769px) {
+  .projects-grid {
+    display: flex;
+  }
+}
+
+/*Display for smaller screens*/
+@media (max-width: 770px) {
+
+}
+
