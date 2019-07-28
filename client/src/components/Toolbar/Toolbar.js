@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import DrawerToggleButton from '../SideDrawer/DrawerToggleButton';
 import { Link, animateScroll as scroll } from "react-scroll";
 import './Toolbar.css';
+import ScrollableAnchor, { goToAnchor } from 'react-scrollable-anchor';
 
 class Toolbar extends Component {
   render() {
