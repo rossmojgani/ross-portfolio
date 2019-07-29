@@ -1,11 +1,12 @@
 import React, { Component }  from 'react';
 import { Grid, Cell } from 'react-mdl';
 import '../css/About.css';
+import { Link, animateScroll as scroll } from "react-scroll";
 
 class About extends Component {
   render() {
     return(
-      <div className="about-body">
+      <div className="about-body" id={'about'}>
         <Grid className="about-grid">
           <Cell col={12}>
           <h2>Ross Mojgani</h2>

@@ -5,7 +5,7 @@ import '../css/Contact.css';
 class Contact extends Component {
   render() {
     return(
-      <div className="contact-body">
+      <div className="contact-body" id={'contact'} >
         <Grid className="contact-grid">
           <Cell col={12}>
             <h2>Contact Me</h2>

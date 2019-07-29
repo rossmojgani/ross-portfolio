@@ -9,7 +9,7 @@ import MarsColony from '../images/ubc_mars_colony.png';
 class Experience extends Component {
   render() {
     return(
-      <div className="experience-cards">
+      <div className="experience-cards" id={'experience'} >
         <h1 className="experience-header">Experience</h1> 
         <div className="experience-card">
           <img className="ecoation-img" src={Ecoation} alt="" />

@@ -13,7 +13,7 @@ class Projects extends Component {
   
     if(this.state.activeTab === 0){
       return(
-        <div className="projects-grid">
+        <div className="projects-grid" >
         {/* Personal Portfolio */}
         <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '20px'}}>
           <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://coreybradshaw.files.wordpress.com/2019/04/network-transformation-optimizednfv-16x9.jpg.rendition.intel_.web_.480.270.jpg) center / cover'}}>Ross Portfolio</CardTitle>
@@ -125,7 +125,7 @@ class Projects extends Component {
 
   render() {
     return(
-      <div className="category-tabs">
+      <div className="category-tabs" id={'projects'}>
         <h1>Projects</h1>
         <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
           <Tab>Software Projects</Tab>

@@ -1,5 +1,6 @@
 import React, { Component} from 'react';
 import ScrollableAnchor from 'react-scrollable-anchor';
+import { Link, animateScroll as scroll } from "react-scroll";
 import './App.css';
 import { BrowserRouter as Router, Route} from 'react-router-dom';
 import Toolbar from './components/Toolbar/Toolbar';
@@ -39,11 +40,11 @@ class App extends Component {
          <SideDrawer show={this.state.sideDrawerOpen} />
          {backdrop}
          <main style={{marginTop: '64px'}}/>
-         <ScrollableAnchor id={'landing'}><Landingpage /></ScrollableAnchor>
-         <ScrollableAnchor id={'about'}><About /></ScrollableAnchor>
-         <ScrollableAnchor id={'projects'}><Projects /></ScrollableAnchor>
-         <ScrollableAnchor id={'experience'}><Experience /></ScrollableAnchor>
-         <ScrollableAnchor id={'contact'}><Contact /></ScrollableAnchor>
+         <Landingpage />
+         <About />
+         <Projects />
+         <Experience />
+         <Contact />
        </div>
      );
   }
