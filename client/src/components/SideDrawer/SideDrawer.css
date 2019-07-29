@@ -27,16 +27,13 @@
 
 .side-drawer li {
   margin: 0.5rem 0;
-}
-
-.side-drawer a {
   color: #393f4d;
   text-decoration: none;
   font-size: 1.2rem;
 }
 
-.side-drawer a:hover,
-.side-drawer a:active {
+.side-drawer li:hover,
+.side-drawer li:active {
  color: #feda6a;
 }
 

@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link, animateScroll as scroll } from "react-scroll";
 import './SideDrawer.css'
 
 const sideDrawer = props => {
@@ -12,39 +12,55 @@ const sideDrawer = props => {
     <nav className={drawerClasses}>
       <ul>
           <li>
-            <a
-              key='#about'
-              href='#about'
+            <Link
+            activeClass="active"
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration= {500}
             >
               About me
-            </a>
+            </Link>
             {/*<a href="/about">About me</a>*/}
           </li>
           <li>
-            <a
-              key='#projects'
-              href='#projects'
+            <Link
+            activeClass="active"
+            to="projects"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration= {500}
             >
               Projects
-            </a>
+            </Link>
             {/*<a href="/projects">Projects</a>*/}
           </li>
           <li>
-            <a
-              key='#experience'
-              href='#experience'
+            <Link
+            activeClass="active"
+            to="experience"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration= {500}
             >
               Experience
-            </a>
+            </Link>
           {/*<a href="/experience">Experience</a>*/}
           </li>
           <li>
-            <a
-              key='#contact'
-              href='#contact'
+            <Link
+            activeClass="active"
+            to="contact"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration= {500}
             >
               Contact
-            </a>
+            </Link>
             {/*<a href="/contact">Contact</a>*/}
             </li>
         {/*<li><a href="/about">About me</a></li>
