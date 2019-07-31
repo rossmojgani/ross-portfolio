@@ -1,22 +1,22 @@
 /*display for larger screens*/
 @media (min-width: 769px) {
-    .contact-body {
+    .footer-body {
         /*position: fixed;*/
     }
 
-    .contact-list i {
+    .footer_navigation-items i {
         font-size: 66px;
     }
 }
 
 /*display for mobile devices*/
 @media (max-width: 770px) {
-    .contact-list i {
+    .footer_navigation-items i {
         font-size: 46px;
     }
 }
 
-.contact-body {
+.footer-body {
     margin: auto;
     width: 100%;
     height: 100%;
@@ -26,17 +26,17 @@
     align-items: center;
 }
 
-.contact-body ul {
+.footer-body ul {
     justify-content: center;
     list-style: none;
 }
 
-.contact-body li {
+.footer-body li {
     margin-top: 30px;
     margin-left: -50px;
 }
 
-.contact-grid {
+.footer__navigation {
     text-align: center;
     justift-content: center;
     width: 80%;
