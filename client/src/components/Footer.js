@@ -5,19 +5,23 @@ import '../css/Footer.css';
 class Footer extends Component {
     render() {
       return(
-          <nav className="footer__navigation">
+          <nav className="footer__navigation" id={'footer'}>
             <div className="footer_navigation-items">
               <ul>
                   <li>
                     <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>
+                    <a href="https://linkedin.com/in/rossmojgani" rel="noopener noreferrer" target="_blank">
                       <i className="fa fa-linkedin" aria-hidden="true" />
+                    </a>
                       <p>linkedin/in/rossmojgani</p>
                     </ListItemContent>
                   </li>
                   
                   <li>
                     <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>
+                   <a href="https://github.com/rossmojgani" rel="noopener noreferrer" target="_blank">
                       <i className="fa fa-github" aria-hidden="true" />
+                    </a>
                       <p>github.com/rossmojgani</p>
                     </ListItemContent>
                   </li>

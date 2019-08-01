@@ -61,7 +61,7 @@ class Toolbar extends Component {
           <li>
             <Link
             activeClass="active"
-            to="contact"
+            to="footer"
             spy={true}
             smooth={true}
             offset={-70}

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
 import marsColony from '../images/airlock.png';
+import babyVision from '../images/baby_vision.png';
 import '../css/Projects.css';
 
 class Projects extends Component {
@@ -54,14 +55,14 @@ class Projects extends Component {
     }else if(this.state.activeTab === 1){
       return(
     <div className="projects-grid">
-    {/* Fitness App Project */}
+    {/* UBC Mars Colony Airlock Project */}
       <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '20px'}}>
-        <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://blog.algolia.com/wp-content/uploads/2015/11/React_illo_final_720x400.png) center / cover'}}>Fitness Web App</CardTitle>
+        <CardTitle style={{color: '#fff', height: '200px', background: 'url(https://ubcmarscolony.files.wordpress.com/2018/04/untitled-drawing-e1522640716340.png?w=748) center / cover'}}>UBC Mars Colony Airlock Project</CardTitle>
           <CardText>
-            A fitness web app to give personalized nutrition and workout plans based on an individual’s goals, height, weight, and body fat percentage. Implemented front end with React.js, and integrated backend with Node.js and MySQL to store user data, diet plans, and workout schedules.
+            Vital airlock software to control fully functional airlock developed in python and C. Implemented on hardware such as Arduino and Raspberry Pi Microcontrollers.
           </CardText>
           <CardActions border>
-            <a href="https://github.com/rossmojgani/FitnessApp" target="_blank"><Button colored>Github</Button></a>
+            <a href="https://github.com/UBCMarsColony/airlock-masters" target="_blank"><Button colored>Github</Button></a>
             <Button colored>Code</Button>
             <Button colored>LiveDemo</Button>
           </CardActions>
@@ -76,14 +77,14 @@ class Projects extends Component {
 }else if(this.state.activeTab === 2){
   return(
     <div className="projects-grid">
-    {/* UBC Mars Colony Airlock Project */}
+    {/* Fitness App Project */}
       <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '20px'}}>
-        <CardTitle style={{color: '#fff', height: '200px', background: 'url(https://ubcmarscolony.files.wordpress.com/2018/04/untitled-drawing-e1522640716340.png?w=748) center / cover'}}>UBC Mars Colony Airlock Project</CardTitle>
+        <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://blog.algolia.com/wp-content/uploads/2015/11/React_illo_final_720x400.png) center / cover'}}>Fitness Friend</CardTitle>
           <CardText>
-            Vital airlock software to control fully functional airlock developed in python and C. Implemented on hardware such as Arduino and Raspberry Pi Microcontrollers.
+            A fitness web app to give personalized nutrition and workout plans based on an individual’s goals, height, weight, and body fat percentage. Implemented front end with React.js, and integrated backend with Node.js and MySQL to store user data, diet plans, and workout schedules.
           </CardText>
           <CardActions border>
-            <a href="https://github.com/UBCMarsColony/airlock-masters" target="_blank"><Button colored>Github</Button></a>
+            <a href="https://github.com/rossmojgani/FitnessApp" target="_blank"><Button colored>Github</Button></a>
             <Button colored>Code</Button>
             <Button colored>LiveDemo</Button>
           </CardActions>
@@ -106,7 +107,26 @@ class Projects extends Component {
             Vital airlock software to control fully functional airlock developed in python and C. Implemented on hardware such as Arduino and Raspberry Pi Microcontrollers.
           </CardText>
           <CardActions border>
-            <a href="https://github.com/UBCMarsColony/airlock-masters" target="_blank"><Button colored>Github</Button></a>
+            <a href="https://github.com/rossmojgani" target="_blank"><Button colored>Github</Button></a>
+            <Button colored>Code</Button>
+            <Button colored>LiveDemo</Button>
+          </CardActions>
+          <CardMenu style={{color: '#fff'}}>
+            <Button style={{color: 'white'}}>
+              <i className="fa fa-share"></i>
+            </Button>
+          </CardMenu>
+      </Card>
+    
+       {/* Baby Monitor CPEN 291 */}
+      <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '20px'}}>
+        <CardTitle style={{color: '#fff', height: '220px', background: 'url(https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/socialmedia/apple/198/baby_1f476.png) center / cover'}}>BabyVision
+         </CardTitle>
+          <CardText>
+            Created a internet of things baby monitor with face detection, live 24/7 image stream, and web app interface using two Raspberry Pi devices. Used React.js, Node.js, MongoDB, and OpenCV. 
+          </CardText>
+          <CardActions border>
+            <a href="https://github.com/rossmojgani" target="_blank"><Button colored>Github</Button></a>
             <Button colored>Code</Button>
             <Button colored>LiveDemo</Button>
           </CardActions>
@@ -129,8 +149,8 @@ class Projects extends Component {
         <h1>Projects</h1>
         <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
           <Tab>Software Projects</Tab>
+          <Tab>Design Team Projects</Tab>
           <Tab>Hackathon Projects</Tab>
-          <Tab>UBC Mars Colony</Tab>
           <Tab>Course Projects</Tab>
         </Tabs>
         
@@ -149,4 +169,5 @@ class Projects extends Component {
 }
 
 export default Projects
+
 
