@@ -43,7 +43,7 @@
 /*Display for small screens*/
 @media (max-width: 768px) {
     .footer_navigation-items li {
-        margin: 0 80%;
+        margin: 0 29px;
     }
 
     .footer_navigation-items p {
