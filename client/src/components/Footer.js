@@ -28,8 +28,10 @@ class Footer extends Component {
                   
                   <li>
                     <ListItemContent style={{fontSize: '15px', fontFamily: 'Anton'}}>
-                      <i className="fa fa-envelope" aria-hidden="true" />
-                      <p>rmojgani99@gmail.com</p>
+                      <a href="mailto:rmojgani99@gmail.com" rel="noopener noreferrer" target="_blank">
+                        <i className="fa fa-envelope" aria-hidden="true" />
+                      </a>
+                        <p>rmojgani99@gmail.com</p>
                     </ListItemContent>
                   </li>
             

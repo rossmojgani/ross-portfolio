@@ -54,7 +54,7 @@ class landingpage extends Component {
            </a>
            
            {/* resume link */}
-           <a href="/contact" rel="noopener noreferrer" target="_blank">
+           <a href="mailto:rmojgani99@gmail.com" rel="noopener noreferrer" target="_blank">
              <i className="fa fa-address-card" aria-hidden="true" />
            </a>
            

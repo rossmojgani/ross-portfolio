@@ -37,7 +37,7 @@
 .footer_navigation-items li:hover,
 .footer_navigation-items li:active {
     cursor: pointer;
-    transform: scale(1.02)
+    transform: scale(1.05)
 }
 
 /*Display for small screens*/
