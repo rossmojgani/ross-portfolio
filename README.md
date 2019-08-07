@@ -4,4 +4,4 @@ Developer portfolio created in React.js to showcase projects, skills, and experi
 
 #### Information
 
-Created with create-react-app 
+Created with create-react-app, use React-Bootstrap
