@@ -16,7 +16,7 @@ class landingpage extends Component {
   render() {
     const {children} = this.props;
     return(
-    <div style={{width: '100%', margin: 'auto'}}>
+    <div id={'home'} style={{width: '100%', margin: 'auto'}}>
       <Grid className="landing-grid">
         <Cell col={12}>
          <img 

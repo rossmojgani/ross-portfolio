@@ -24,6 +24,7 @@
 }
 .toolbar__logo a {
   color: white;
+  cursor: pointer;
   text-decoration: none;
   font-size: 1.5rem;
 }

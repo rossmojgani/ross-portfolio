@@ -22,6 +22,19 @@ class Toolbar extends Component {
           <li>
             <Link
             activeClass="active"
+            to="home"
+            spy={true}
+            smooth={true}
+            offset={-130}
+            duration= {500}
+            >
+              Home
+            </Link>
+            {/*<a href="/about">About me</a>*/}
+          </li>
+          <li>
+            <Link
+            activeClass="active"
             to="about"
             spy={true}
             smooth={true}
