@@ -4,4 +4,9 @@ Developer portfolio created in React.js to showcase projects, skills, and experi
 
 #### Information
 
-Created with create-react-app, use React-Bootstrap
+Created with create-react-app
+
+#### Dependencies
+
+- react-bootstrap
+- react-scrollable-anchor
