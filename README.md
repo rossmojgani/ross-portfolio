@@ -4,7 +4,7 @@ Developer portfolio created in React.js to showcase projects, skills, and experi
 
 #### Information
 
-Created with create-react-app
+Created using create-react-app. Link below.
 
 #### Dependencies
 
