@@ -2,6 +2,7 @@ import React, { Component }  from 'react';
 import { Grid, Cell } from 'react-mdl';
 import '../css/About.css';
 import { Link, animateScroll as scroll } from "react-scroll";
+import avatar from '../images/avatar2.jpg';
 
 class About extends Component {
   render() {
@@ -11,7 +12,7 @@ class About extends Component {
           <Cell col={6}>
           <h2>Ross Mojgani</h2>
           <img 
-            src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png"
+            src={avatar}
             alt="avatar"
           />
           </Cell>
