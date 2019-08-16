@@ -7,7 +7,7 @@
 
 .about-grid {
     text-align: center;
-    justift-content: center;
+    justify-content: center;
     width: 80%;
     height: 550px;
     background: white;
@@ -49,6 +49,7 @@
 /*display for smaller screens*/
 @media (max-width: 769px) {
     .about-body {
+        display: flex;
     }
     
     .about-grid img {
