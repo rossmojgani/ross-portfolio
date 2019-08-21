@@ -1,15 +1,15 @@
 .category-tabs h1 {
-  text-align: center;
-  font-weight: bold;
-  padding-top: 0.3em;
-  font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 0.3em;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* Display for larger screens*/
 @media (min-width: 769px) {
-  .projects-grid {
-    display: flex;
-  }
+    .projects-grid {
+        display: flex;
+    }
 }
 
 /*Display for smaller screens*/

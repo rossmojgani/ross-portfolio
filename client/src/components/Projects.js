@@ -148,10 +148,10 @@ class Projects extends Component {
       <div className="category-tabs" id={'projects'}>
         <h1>Projects</h1>
         <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
-          <Tab>Software Projects</Tab>
-          <Tab>Design Team Projects</Tab>
-          <Tab>Hackathon Projects</Tab>
-          <Tab>Course Projects</Tab>
+          <Tab>Software</Tab>
+          <Tab>Design</Tab>
+          <Tab>Hackathon</Tab>
+          <Tab>Courses</Tab>
         </Tabs>
         
         <Grid>
