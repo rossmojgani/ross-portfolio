@@ -5,12 +5,16 @@
 
 .about-img {
     flex: 50%;
-    padding: 5px;
+    margin: 5px 15px 5px 15px;
+}
+
+.about-img img{
+    border-radius: 2%;
 }
 
 .about-text {
     flex: 50%;
-    padding: 5px;
+    margin: 5px 15px 5px 15px;
 }
 
 .about-body h2 {
