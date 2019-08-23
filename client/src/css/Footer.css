@@ -1,6 +1,6 @@
 .footer__navigation{
     position: sticky;
-    height: 20vh;
+    height: 22vh;
     margin: auto auto -175px auto;
     width: 100%;
     align-items: center;
@@ -19,6 +19,7 @@
     color: white;
     text-decoration: none;
     margin-top: 3vh;
+    margin-right: 25px;
 }
 
 .footer_navigation-items p {
@@ -39,7 +40,8 @@
 
 /*Display for small screens*/
 @media (max-width: 768px) {
-    .footer_navigation-items li {
+    .footer__navigation{
+        height: 12vh;
     }
 
     .footer_navigation-items p {

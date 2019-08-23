@@ -34,13 +34,6 @@ class Footer extends Component {
                         <p>rmojgani99@gmail.com</p>
                     </ListItemContent>
                   </li>
-            
-          {/*<li>
-                    <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>
-                      <i className="fa fa-skype" aria-hidden="true" />
-                      <p>My skype id</p>
-                    </ListItemContent>
-                  </li>*/}
               </ul>
             </div>
           </nav>
