@@ -19,11 +19,12 @@ class landingpage extends Component {
     <div id={'home'} style={{width: '100%', margin: 'auto'}}>
       <Grid className="landing-grid">
         <Cell col={12}>
-         <img 
+        {/*<img 
+           style={{maxWidth: '275px'}}
            src={avatar}
            alt={"avatar"}
            className="avatar-img"
-         />
+         />*/}
          
          <div className="banner-text">
            <h1>Ross Mojgani</h1>
