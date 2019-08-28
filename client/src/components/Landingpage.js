@@ -27,6 +27,7 @@ class landingpage extends Component {
          />*/}
          
          <div className="banner-text">
+           <h1>Hello, I'm</h1>
            <h1>Ross Mojgani</h1>
            
            <h1>
@@ -40,6 +41,7 @@ class landingpage extends Component {
            </Typist> : <h1><Typist onTypingDone={this.done}>Test</Typist></h1> 
            }
            </h1>
+            
 
            <hr />
            <p>Python | Java | C++ | C | Web Development </p>
@@ -58,6 +60,7 @@ class landingpage extends Component {
            <a href="mailto:rmojgani99@gmail.com" >
              <i className="fa fa-address-card" aria-hidden="true" />
            </a>
+
            
           </div>
          
