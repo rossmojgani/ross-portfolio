@@ -17,8 +17,8 @@ class Experience extends Component {
           <div className="experience-back" />
           <div className="experience-text" >
               <img className="img-small" src={Ecoation} alt="" />
-              <h3 className="position">Embedded Software Engineer Intern</h3>
-              <h4 className="team">Ecoation Innovative Solutions Inc. (EIS)</h4>
+              <h3 className="position">Software Engineer Intern</h3>
+              <h4 className="team">Ecoation</h4>
               <p className="experience-date">May 2019 - Present</p>
               <ul className="description">
                 <li>Developed an end-to-end simulator to refine final product through unit and integration testing</li>
@@ -34,7 +34,7 @@ class Experience extends Component {
           <div className="experience-text" >
               <img className="img-small" src={Coast} alt="" />
               <h3 className="position">Solutions Architect Intern</h3>
-              <h4 className="team">Coast Capital Savings Credit Union</h4>
+              <h4 className="team">Coast Capital Savings</h4>
               <p className="experience-date">May 2019 - Present</p>
               <ul>
                 <li>Refactored web application design requirements to handle sensitive customer information daily</li>
