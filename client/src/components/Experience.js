@@ -11,49 +11,52 @@ class Experience extends Component {
     return(
       <div className="experience-cards" id={'experience'} >
         <h1 className="experience-header">Experience</h1> 
+    
         <div className="experience-card">
-          <img className="ecoation-img" src={Ecoation} alt="" />
-          <div className="experience-back" >
+          <img className="experience-img" src={Ecoation} alt="" />
+          <div className="experience-back" />
           <div className="experience-text" >
-          <h3>Ecoation Innovative Solutions Inc. (EIS)</h3>
-          <h4>Embedded Software Engineer Intern</h4>
-              <ul>
+              <img className="img-small" src={Ecoation} alt="" />
+              <h3 className="position">Embedded Software Engineer Intern</h3>
+              <h4 className="team">Ecoation Innovative Solutions Inc. (EIS)</h4>
+              <p className="experience-date">May 2019 - Present</p>
+              <ul className="description">
                 <li>Developed an end-to-end simulator to refine final product through unit and integration testing</li>
                 <li>Formulated 10+ Jenkins CI jobs to manage workflow by establishing key build prerequisites prior to merge</li>
                 <li>Automated codebase documentation process by writing Python scripts for increased team productivity</li>
               </ul>
           </div>
+        </div>
+
+        <div className="experience-card">
+          <img className="experience-img" src={Coast} alt="" />
+          <div className="experience-back" />
+          <div className="experience-text" >
+              <img className="img-small" src={Coast} alt="" />
+              <h3 className="position">Solutions Architect Intern</h3>
+              <h4 className="team">Coast Capital Savings Credit Union</h4>
+              <p className="experience-date">May 2019 - Present</p>
+              <ul>
+                <li>Refactored web application design requirements to handle sensitive customer information daily</li>
+                <li>Maintained stability of application by communicating features to 3 development team members in formal reports</li>
+                <li>Configured QA environment and designed integration tests before deploying to production</li>
+                <li>Produced requirements for reconciliation application for 3 transaction types such as eTransfer, ATM, and TFSA</li>
+              </ul>
           </div>
         </div>
 
         <div className="experience-card">
-          <img className="coast-img" src={Coast} alt="" />
-          <div className="experience-back" >
+          <img className="experience-img" src={MarsColony} alt="" />
+          <div className="experience-back" />
           <div className="experience-text" >
-          <h3>Coast Capital Savings Credit Union</h3>
-          <h4>Solutions Architect Intern</h4>
-            <ul>
-              <li>Refactored web application design requirements to handle sensitive customer information daily</li>
-              <li>Maintained stability of application by communicating features to 3 development team members in formal reports</li>
-              <li>Configured QA environment and designed integration tests before deploying to production</li>
-              <li>Produced requirements for reconciliation application for 3 transaction types such as eTransfer, ATM, and TFSA</li>
-            </ul>
-          </div>
-          </div>
-        </div>
-
-        <div className="experience-card">
-          <img className="mars-img" src={MarsColony} alt="" />
-          <div className="experience-back" >
-          <div className="experience-text" >
-          <h3>UBC Mars Colony</h3>
-          <h4>Software Engineer</h4>
-            <ul>
-              <li>Constructed control systems for door, lighting, and sensor mechanisms in Python and C with SPI and I2C protocols</li>
-              <li>Coordinated weekly work sessions and assisted engineers to design scalable and robust software systems</li>
-              <li>Develop vital airlock software implemented on hardware such as Raspberry Pi and Arduino Microcontrollers</li>
-            </ul>
-          </div>
+              <img className="img-small" src={MarsColony} alt="" />
+              <h3 className="position">Software Engineer</h3>
+              <h4 className="team">UBC Mars Colony</h4>
+              <ul>
+                <li>Constructed control systems for door, lighting, and sensor mechanisms in Python and C with SPI and I2C protocols</li>
+                <li>Coordinated weekly work sessions and assisted engineers to design scalable and robust software systems</li>
+                <li>Develop vital airlock software implemented on hardware such as Raspberry Pi and Arduino Microcontrollers</li>
+              </ul>
           </div>
         </div>
 
