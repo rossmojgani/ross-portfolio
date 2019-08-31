@@ -55,6 +55,8 @@
     padding: 0;
     list-style-type: circle;
     list-style-position: outside;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 1.1em;
 }
 
 .img-small {
