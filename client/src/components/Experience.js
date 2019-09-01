@@ -19,7 +19,7 @@ class Experience extends Component {
               <img className="img-small" src={Ecoation} alt="" />
               <h3 className="position">Software Engineer Intern</h3>
               <h4 className="team">Ecoation</h4>
-              <p className="experience-date">May 2019 - Present (4 Months)</p>
+              <p className="experience-date">May 2019 - Present (4 mos)</p>
               <ul className="description">
                 <li>Developed an end-to-end simulator to refine final product through unit and integration testing</li>
                 <li>Formulated 10+ Jenkins CI jobs to manage workflow by establishing key build prerequisites prior to merge</li>
@@ -35,7 +35,7 @@ class Experience extends Component {
               <img className="img-small" src={Coast} alt="" />
               <h3 className="position">Solutions Architect Intern</h3>
               <h4 className="team">Coast Capital Savings</h4>
-              <p className="experience-date">May 2018 - August 2018 (4 Months)</p>
+              <p className="experience-date">May 2018 - August 2018 (4 mos)</p>
               <ul>
                 <li>Refactored web application design requirements to handle sensitive customer information daily</li>
                 <li>Maintained stability of application by communicating features to 3 development team members in formal reports</li>
@@ -52,7 +52,7 @@ class Experience extends Component {
               <img className="img-small" src={MarsColony} alt="" />
               <h3 className="position">Software Engineer</h3>
               <h4 className="team">UBC Mars Colony</h4>
-              <p className="experience-date">December 2017 - Present (1 Year, 9 Months)</p>
+              <p className="experience-date">December 2017 - Present (1 yr 9 mos)</p>
               <ul>
                 <li>Constructed control systems for door, lighting, and sensor mechanisms in Python and C with SPI and I2C protocols</li>
                 <li>Coordinated weekly work sessions and assisted engineers to design scalable and robust software systems</li>
