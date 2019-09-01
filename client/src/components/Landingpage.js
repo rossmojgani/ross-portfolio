@@ -19,12 +19,6 @@ class landingpage extends Component {
     <div id={'home'} style={{width: '100%', margin: 'auto'}}>
       <Grid className="landing-grid">
         <Cell col={12}>
-        {/*<img 
-           style={{maxWidth: '275px'}}
-           src={avatar}
-           alt={"avatar"}
-           className="avatar-img"
-         />*/}
          
          <div className="banner-text">
            <h1>Hello, I'm</h1>
@@ -44,7 +38,8 @@ class landingpage extends Component {
             
 
            <hr />
-           <p>Python | Java | C++ | C | Web Development </p>
+           <p>Skills: Python | Java | C++ | C | ReactJS | HTML5</p>
+           <p>Tools: Git | Docker | Jenkins | JIRA | Balena | ROS</p>
          <div className="social-links">
            {/* github link */}
            <a href="https://github.com/rossmojgani" rel="noopener noreferrer" target="_blank">

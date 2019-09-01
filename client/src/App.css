@@ -1,68 +1,65 @@
 .landing-grid {
     text-align: center;
-position: relative;
-top: -64px;
-left: 0;
-      /*background: #00c6ff;  [> fallback for old browsers <]*/
-      /*background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  [> Chrome 10-25, Safari 5.1-6 <]*/
-      /*background: linear-gradient(to right, #0072ff, #00c6ff); [> W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ <]*/
-      background-image: url(images/vancouver.jpg);
-      background-size: cover;
-      -webkit-background-size: cover; /* for Safari 3.0 - 4.0 , Chrome 1.0 - 3.0 */
-      -moz-background-size: cover; /* optional for Firefox 3.6 */ 
-      -o-background-size: cover; /* for Opera 9.5 */
-margin: 0; /* to remove the default white margin of body */
-padding: 0; /* to remove the default white margin of body */
-overflow: hidden;
-          min-height: 100vh;
-}
-
-.avatar-img {
-width: 200px;
-       padding-top: 5em;
-padding: 20px;
-         border-radius: 30%;
+    position: relative;
+    top: -64px;
+    left: 0;
+    /*background: #00c6ff;  [> fallback for old browsers <]*/
+    /*background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  [> Chrome 10-25, Safari 5.1-6 <]*/
+    /*background: linear-gradient(to right, #0072ff, #00c6ff); [> W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ <]*/
+    background-image: url(images/vancouver.jpg);
+    background-size: cover;
+    -webkit-background-size: cover; /* for Safari 3.0 - 4.0 , Chrome 1.0 - 3.0 */
+    -moz-background-size: cover; /* optional for Firefox 3.6 */ 
+    -o-background-size: cover; /* for Opera 9.5 */
+    margin: 0; /* to remove the default white margin of body */
+    padding: 0; /* to remove the default white margin of body */
+    overflow: hidden;
+    min-height: 100vh;
 }
 
 .banner-text hr {
     border-top: 5px;
-width: 50%;
-margin: auto;
+    width: 50%;
+    margin: auto;
 }
 
 .banner-text p {
-color: white;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    line-height: 0.35em;
 }
 
 .social-links {
-display: flex;
-         justify-content: center;
-width: 50%;
-margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
 }
 
 .social-links i {
-color: white;
-       font-size: 5em;
-padding: 8px;
+    color: white;
+    font-size: 5em;
+    padding: 8px;
 }
 
 .social-links i:hover {
-transform: scale(1.05)
+    transform: scale(1.05)
 }
 
 .banner-text {
     background-color: black;
-opacity: 0.75;
-margin: 20vh auto auto auto;
-        border-radius: 10px;
+    opacity: 0.75;
+    margin: 20vh auto auto auto;
+    border-radius: 10px;
 }
 
 .banner-text h1 {
     font-weight: bold;
-color: white;
-margin: 0;
-padding: 0;
+    color: white;
+    margin: 0;
+    padding: 0;
 }
 
 /*css for larger displays*/
@@ -72,12 +69,12 @@ padding: 0;
     }
 
     .banner-text {
-width: 85%;
+        width: 85%;
     }
 
     .banner-text p {
         font-size: 20px;
-padding: 1em;
+        padding: 1em;
     }
 
 }
@@ -89,7 +86,7 @@ padding: 1em;
     }
 
     .banner-text {
-width: 85%;
+        width: 85%;
     }
 
     .banner-text p {
