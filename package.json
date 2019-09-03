@@ -1,10 +1,7 @@
 {
   "name": "Ross-Portfolio",
   "version": "1.0.0",
-  "homepage": "http://rossmojgani.github.io/ross-portfolio",
   "scripts": {
-    "predeploy": "yarn dev",
-    "deploy": "gh-pages -d build",
     "client": "cd client && yarn start",
     "server": "nodemon server.js",
     "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
