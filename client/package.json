@@ -1,7 +1,7 @@
 {
   "name": "Ross-Portfolio",
   "version": "0.1.0",
-  "hostname": "https://rossmojgani.github.io/rossmojgami.github.io",
+  "homepage": "http://rossmojgani.github.io/rossmojgami.github.io",
   "private": true,
   "proxy": "http://localhost:5000/",
   "dependencies": {
