@@ -1,7 +1,7 @@
 {
-  "name": "Ross Portfolio",
+  "name": "Ross-Portfolio",
   "version": "0.1.0",
-  "homepage": "http://rossmojgani.github.io/",
+  "homepage": "http://rossmojgani.github.io/ross-portfolio",
   "private": true,
   "dependencies": {
     "bootstrap": "^4.3.1",
