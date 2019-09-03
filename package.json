@@ -1,9 +1,9 @@
 {
   "name": "Ross-Portfolio",
   "version": "1.0.0",
-  "homepage": "http://rossmojgani.github.io/ross-portfolio"
+  "homepage": "http://rossmojgani.github.io/ross-portfolio",
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "yarn dev",
     "deploy": "gh-pages -d build",
     "client": "cd client && yarn start",
     "server": "nodemon server.js",
