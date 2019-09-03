@@ -21,6 +21,11 @@ class Projects extends Component {
           <CardText>
             Development portfolio created in React.js to showcase projects, skills, and experience with goal in mind to connect with others sharing the same interests. 
           </CardText>
+          <div className="tools" >
+          <p>ReactJS</p>
+          <p>HTML5</p>
+          <p>CSS3</p>
+          </div>
           <CardActions border>
             <a href="https://github.com/rossmojgani/ross-portfolio" target="_blant"><Button colored>Github</Button></a>
             <Button colored>Code</Button>
@@ -39,6 +44,11 @@ class Projects extends Component {
           <CardText>
             Applied graph theory concepts to find all solutions to any dimension Boggle board using graph traversals such a depth first search and breadth first search.
           </CardText>
+          <div className="tools" >
+          <p>Java</p>
+          <p>JUnit</p>
+          <p>IntelliJ IDE</p>
+          </div>
           <CardActions border>
             <Button colored>Github</Button>
             <Button colored>Code</Button>
@@ -61,6 +71,12 @@ class Projects extends Component {
           <CardText>
             Vital airlock software to control fully functional airlock developed in python and C. Implemented on hardware such as Arduino and Raspberry Pi Microcontrollers.
           </CardText>
+          <div className="tools" >
+          <p>Python</p>
+          <p>C</p>
+          <p>Arduino</p>
+          <p>Raspberry Pi</p>
+          </div>
           <CardActions border>
             <a href="https://github.com/UBCMarsColony/airlock-masters" target="_blank"><Button colored>Github</Button></a>
             <Button colored>Code</Button>
@@ -83,6 +99,12 @@ class Projects extends Component {
           <CardText>
             A fitness web app to give personalized nutrition and workout plans based on an individual’s goals, height, weight, and body fat percentage. Implemented front end with React.js, and integrated backend with Node.js and MySQL to store user data, diet plans, and workout schedules.
           </CardText>
+          <div className="tools" >
+          <p>React.js</p>
+          <p>Node.js</p>
+          <p>MySQL</p>
+          <p>Python</p>
+          </div>
           <CardActions border>
             <a href="https://github.com/rossmojgani/FitnessApp" target="_blank"><Button colored>Github</Button></a>
             <Button colored>Code</Button>
@@ -104,8 +126,13 @@ class Projects extends Component {
         <CardTitle style={{color: '#fff', height: '220px', background: 'url(https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/socialmedia/apple/198/robot-face_1f916.png) center / cover'}}>Autonomous Dancing Robot
          </CardTitle>
           <CardText>
-            Vital airlock software to control fully functional airlock developed in python and C. Implemented on hardware such as Arduino and Raspberry Pi Microcontrollers.
+          An autonomous dancing robot with manual control via a remote controller with 6 different dance moves and various feedback such as facial expressions implemented on a 7 segment display and servo motors controlling arm and leg movements.
           </CardText>
+          <div className="tools" >
+          <p>Python</p>
+          <p>Raspberry Pi</p>
+          <p>C</p>
+          </div>
           <CardActions border>
             <a href="https://github.com/rossmojgani" target="_blank"><Button colored>Github</Button></a>
             <Button colored>Code</Button>
@@ -125,6 +152,13 @@ class Projects extends Component {
           <CardText>
             Created a internet of things baby monitor with face detection, live 24/7 image stream, and web app interface using two Raspberry Pi devices. Used React.js, Node.js, MongoDB, and OpenCV. 
           </CardText>
+          <div className="tools" >
+          <p>Python</p>
+          <p>Raspberry Pi</p>
+          <p>React.js</p>
+          <p>Node.js</p>
+          <p>MongoDB</p>
+          </div>
           <CardActions border>
             <a href="https://github.com/rossmojgani" target="_blank"><Button colored>Github</Button></a>
             <Button colored>Code</Button>

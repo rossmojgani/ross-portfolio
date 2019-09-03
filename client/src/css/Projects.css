@@ -5,6 +5,31 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+.tools {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: auto;
+    margin-left: 10px;
+    margin-top: -5px;
+    margin-bottom: 10px;
+
+}
+
+.tools p {
+    margin: 0 10px 5px 0;
+    font-family: 'Oxygen';
+    background-color: #7d7d85;
+    border-radius: 4px;
+    color: #ffffff;
+    transition: opacity 0.1s;
+    padding: 5px 10px;
+}
+
+.tools p:hover {
+    opacity: 0.8;
+}
+
 /* Display for larger screens*/
 @media (min-width: 769px) {
     .projects-grid {
