@@ -38,8 +38,8 @@ class landingpage extends Component {
             
 
            <hr />
-           <p>Skills: Python | Java | C++ | C | ReactJS | HTML5</p>
-           <p>Tools: Git | Docker | Jenkins | JIRA | Balena | ROS</p>
+           <p>Skills: Python | Java | C++ | C | ARMv7 | X86 | ReactJS | CSS3 | HTML5</p>
+           <p>Tools: Docker | Jenkins | Balena | JIRA | AWS | ROS | Git | GDB | JUnit | Agile Method</p>
          <div className="social-links">
            {/* github link */}
            <a href="https://github.com/rossmojgani" rel="noopener noreferrer" target="_blank">

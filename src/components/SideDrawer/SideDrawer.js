@@ -53,7 +53,7 @@ const sideDrawer = props => {
           <li>
             <Link
             activeClass="active"
-            to="contact"
+            to="footer"
             spy={true}
             smooth={true}
             offset={-70}

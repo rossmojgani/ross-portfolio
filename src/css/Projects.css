@@ -5,6 +5,10 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+.category-tabs {
+ font-size: 100px;
+}
+
 .tools {
     display: flex;
     flex-direction: row;

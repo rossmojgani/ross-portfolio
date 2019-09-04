@@ -1,6 +1,6 @@
 .footer__navigation{
     position: sticky;
-    height: 23vh;
+    height: 22vh;
     margin: auto auto -175px auto;
     width: 100%;
     align-items: center;
@@ -27,7 +27,7 @@
 }
 
 .footer_navigation-items p {
-    font-size: 21px;
+    font-size: 18px;
     margin-top: 10px;
     font-family: 'Open Sans', sans-serif;
 }
