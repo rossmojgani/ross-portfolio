@@ -1,6 +1,6 @@
 .footer__navigation{
-    position: sticky;
-    height: 22vh;
+    position: relative;
+    height: 12vh;
     margin: auto auto -175px auto;
     width: 100%;
     align-items: center;
@@ -45,7 +45,7 @@
 /*Display for small screens*/
 @media (max-width: 768px) {
     .footer__navigation{
-        height: 14vh;
+        height: 8vh;
     }
 
     .footer_navigation-items p {

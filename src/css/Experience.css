@@ -8,6 +8,10 @@
 .experience-header {
     font-weight: bold;
     font-family: 'Open Sans', sans-serif;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
 }
 
 .experience-card {
