@@ -48,19 +48,6 @@ class Toolbar extends Component {
           <li>
             <Link
             activeClass="active"
-            to="projects"
-            spy={true}
-            smooth={true}
-            offset={-70}
-            duration= {500}
-            >
-              Projects
-            </Link>
-            {/*<a href="/projects">Projects</a>*/}
-          </li>
-          <li>
-            <Link
-            activeClass="active"
             to="experience"
             spy={true}
             smooth={true}
@@ -70,6 +57,19 @@ class Toolbar extends Component {
               Experience
             </Link>
           {/*<a href="/experience">Experience</a>*/}
+          </li>
+          <li>
+            <Link
+            activeClass="active"
+            to="projects"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration= {500}
+            >
+              Projects
+            </Link>
+            {/*<a href="/projects">Projects</a>*/}
           </li>
           <li>
             <Link

@@ -30,6 +30,8 @@ class landingpage extends Component {
              <Typist.Backspace count={29} delay={2500} />
                  Software Engineer Intern.
              <Typist.Backspace count={25} delay={2500} />
+                 Software Developer.
+             <Typist.Backspace count={19} delay={2500} />
                  Embedded Software Developer.
              <Typist.Backspace count={28} delay={2500} />
            </Typist> : <h1><Typist onTypingDone={this.done}>Test</Typist></h1> 

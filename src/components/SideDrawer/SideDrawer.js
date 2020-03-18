@@ -27,19 +27,6 @@ const sideDrawer = props => {
           <li>
             <Link
             activeClass="active"
-            to="projects"
-            spy={true}
-            smooth={true}
-            offset={-70}
-            duration= {500}
-            >
-              Projects
-            </Link>
-            {/*<a href="/projects">Projects</a>*/}
-          </li>
-          <li>
-            <Link
-            activeClass="active"
             to="experience"
             spy={true}
             smooth={true}
@@ -49,6 +36,19 @@ const sideDrawer = props => {
               Experience
             </Link>
           {/*<a href="/experience">Experience</a>*/}
+          </li>
+          <li>
+            <Link
+            activeClass="active"
+            to="projects"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration= {500}
+            >
+              Projects
+            </Link>
+            {/*<a href="/projects">Projects</a>*/}
           </li>
           <li>
             <Link
@@ -63,10 +63,6 @@ const sideDrawer = props => {
             </Link>
             {/*<a href="/contact">Contact</a>*/}
             </li>
-        {/*<li><a href="/about">About me</a></li>
-        <li><a href="/projects">Projects</a></li>
-        <li><a href="/experience">Experience</a></li>
-        <li><a href="/contact">Contact</a></li>*/}
       </ul>
     </nav>
   );

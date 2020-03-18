@@ -43,8 +43,8 @@ class App extends Component {
          <main style={{marginTop: '64px'}}/>
          <Landingpage />
          <About />
-         <Projects />
          <Experience />
+         <Projects />
          <Footer />
        </div>
      );

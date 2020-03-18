@@ -30,12 +30,10 @@
 }
 
 .experience-back {
-    /*position: absolute;*/
     top: -1px;
     right: -1px;
     height: 110%;
     width: 80%;
-    /*background: url('https://i.stack.imgur.com/pl0Ho.jpg');*/
     background-size: cover;
 }
 
@@ -118,6 +116,4 @@
     .team {
         font-size: 0.95em;
     }
-
-
 }
