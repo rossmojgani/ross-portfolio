@@ -12,7 +12,7 @@ class Projects extends Component {
 
         <Grid>
         <Cell col={6} style={{padding: '20px', margin: '0 auto'}}>
-        {/* Personal Portfolio */}
+        {/* Rapidserve nwHacks 2020 */}
         <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
           <CardTitle style={{color: '#fff', height: '176px', background: "url(https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/socialmedia/apple/237/hamburger_1f354.png) center / cover"}}>RapidServe</CardTitle>
           <CardText style={{fontWeight: 'bold', marginBottom: '0', paddingBottom: '0'}}>
@@ -38,7 +38,7 @@ class Projects extends Component {
         </Card>
         </Cell>
         <Cell col={6} style={{padding: '20px', margin: '0 auto'}}>
-        {/* Boggle Player */}
+        {/* Skylink */}
         <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
           <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/socialmedia/apple/237/airplane_2708.png) center / cover'}}>Skylink</CardTitle>
           <CardText>
@@ -99,7 +99,7 @@ class Projects extends Component {
           <p>IntelliJ IDE</p>
           </div>
           <CardActions border>
-            <a href="https://github.com/rossmojgani/skylink" target="_blank" rel="noopener noreferrer"><Button colored>Github</Button></a>
+            <a href="https://github.com/rossmojgani" target="_blank" rel="noopener noreferrer"><Button colored>Github</Button></a>
           </CardActions>
           <CardMenu style={{color: '#fff'}}>
             <Button style={{color: 'white'}}>
