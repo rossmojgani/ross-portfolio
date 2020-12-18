@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import '../css/Experience.css';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
+import Intel from '../images/intel.jpg';
 import NetApp from '../images/netapp.jpg';
 import Ecoation from '../images/ecoaction.png';
 import Coast from '../images/coast_capital_crop.jpg';
@@ -13,6 +14,22 @@ class Experience extends Component {
     return(
       <div className="experience-cards" id={'experience'} >
         <h1 className="experience-header">Experience</h1> 
+
+        <div className="experience-card">
+          <img className="experience-img" src={Intel} alt="" />
+          <div className="experience-back" />
+          <div className="experience-text" >
+              <img className="img-small" src={Intel} alt="" />
+              <h3 className="position">Firmware Engineer Intern</h3>
+              <h4 className="team">Intel</h4>
+              <p className="experience-date">May 2020 - December 2020 (8 mos)</p>
+              <ul className="description">
+                <li>Implemented APIs in C++ which required design to follow NVMe specification for new SSD controller</li>
+                <li>Integrated APIs into production firmware using C to interface with drivers agnostic of underlying hardware</li>
+                <li>Improved CI process by developing off-target and on-target unit tests on FPGA emulation platform for API methods</li>
+              </ul>
+          </div>
+        </div>
 
         <div className="experience-card">
           <img className="experience-img" src={NetApp} alt="" />
