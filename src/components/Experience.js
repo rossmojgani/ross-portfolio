@@ -4,8 +4,7 @@ import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import Intel from '../images/intel.jpg';
 import NetApp from '../images/netapp.jpg';
-import Ecoation from '../images/ecoaction.png';
-import Coast from '../images/coast_capital_crop.jpg';
+import Ecoation from '../images/ecoation.png';
 import UAS from '../images/UAS.png';
 import MarsColony from '../images/ubc_mars_colony.png';
 
@@ -47,7 +46,8 @@ class Experience extends Component {
               </ul>
           </div>
         </div>
-    <div className="experience-card">
+
+        <div className="experience-card">
           <img className="experience-img" src={Ecoation} alt="" />
           <div className="experience-back" />
           <div className="experience-text" >
@@ -60,23 +60,6 @@ class Experience extends Component {
                 <li>Developed an end-to-end simulator ROS node to refine final product through unit and integration testing workflow</li>
                 <li>Automated provisioning of new production devices through OO Python design for increased team productivity</li>
                 <li>Formulated 10+ Jenkins CI jobs to manage workflow by establishing key build prerequisites prior to merge</li>
-              </ul>
-          </div>
-        </div>
-
-        <div className="experience-card">
-          <img className="experience-img" src={Coast} alt="" />
-          <div className="experience-back" />
-          <div className="experience-text" >
-              <img className="img-small" src={Coast} alt="" />
-              <h3 className="position">Solutions Architect Intern</h3>
-              <h4 className="team">Coast Capital Savings</h4>
-              <p className="experience-date">May 2018 - August 2018 (4 mos)</p>
-              <ul>
-                <li>Maintained stability of application by communicating features to 3 development team members in formal reports</li>
-                <li>Configured QA environment and designed integration tests before deploying to production</li>
-                <li>Produced requirements for reconciliation application for 3 transaction types such as eTransfer, ATM, and TFSA</li>
-                <li>Refactored web application design requirements to handle sensitive customer information daily</li>
               </ul>
           </div>
         </div>

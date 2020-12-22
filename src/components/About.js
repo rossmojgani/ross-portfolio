@@ -2,7 +2,7 @@ import React, { Component }  from 'react';
 import { Grid, Cell } from 'react-mdl'; 
 import '../css/About.css'; 
 import { Link, animateScroll as scroll } from "react-scroll"; 
-import avatar from '../images/avatar2.jpg'; 
+import avatar from '../images/avatar.jpg';
 
 class About extends Component { render() {
     return(
